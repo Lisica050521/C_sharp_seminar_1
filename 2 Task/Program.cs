@@ -4,17 +4,17 @@
 using static System.Console;
 Clear();
 
-Write("ВВедите первое число");
+Write("ВВедите первое число ");
 int a = int.Parse(ReadLine());
 
-Write("ВВедите второе число");
+Write("ВВедите второе число ");
 int b = int.Parse(ReadLine());
 
 if (a > b)
 {
-  WriteLine("Первое число больше второго");
+  WriteLine($"Первое число {a} больше второго числа {b}");
 }
 else
 {
-  WriteLine("Второе число больше первого");
+  WriteLine($"Второе число {b} больше первого числа {a}");
 }
